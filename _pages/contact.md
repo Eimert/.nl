@@ -1,10 +1,9 @@
 ---
 title: Contact
 permalink: /contact/
+layout: single
 ---
-# Contact
-
 You can reach me using:
-- [linkedin.com/in/eimertvink](http://linkedin.com/in/eimertvink)
-- [gitlab.com/eimert](https://gitlab.com/Eimert)
-- [github.com/eimert](https://github.com/Eimert)
+- [linkedin.com/in/eimertvink](http://linkedin.com/in/eimertvink){:target="_blank"}
+- [gitlab.com/eimert](https://gitlab.com/Eimert){:target="_blank"}
+- [github.com/eimert](https://github.com/Eimert){:target="_blank"}

@@ -1,8 +1,9 @@
 ---
-title: about
+title: About
 permalink: /about/
+layout: single
 ---
-# About
+## Eimert Vink
 
 ## Generation Einstein
 Born in 1992, Drenthe (NL). Early on I became interested in computers and networking. Lots of computers have been disassembled and reassembled with better parts. After the secondary school, I got my diploma ‘Network engineering’ at the Drenthe College (MBO4). I continued studying at the Hanzehogeschool in Groningen. I finished the bachelor ‘Business IT & Management’ with honours. After briefly studying computer science at the TU Eindhoven, I started working as Tomcat Engineer at ING. I’ve recently switched teams and became a Java Engineer.

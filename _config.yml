@@ -5,7 +5,7 @@ show_downloads: false
 remote_theme: "mmistakes/minimal-mistakes@4.16.0"
 plugins:
   - jekyll-include-cache
-minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 analytics:
   provider: "google-gtag"
   google:
@@ -17,3 +17,19 @@ locale: "en-GB"
 #  - /assets/js/ga.html
 logo: "/assets/images/88x88.png"
 include: ["_pages"]
+
+# recommended front matter defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+pagination: 5
+author: Eimert Vink
