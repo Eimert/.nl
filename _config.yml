@@ -5,6 +5,7 @@ show_downloads: false
 remote_theme: "mmistakes/minimal-mistakes@4.16.0"
 plugins:
   - jekyll-include-cache
+  - jemoji
 minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 analytics:
   provider: "google-gtag"
