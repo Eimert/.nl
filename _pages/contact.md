@@ -5,6 +5,6 @@ layout: single
 author_profile: true
 ---
 You may reach me using:
-- [linkedin.com/in/eimertvink](http://linkedin.com/in/eimertvink){:target="_blank"}
-- [gitlab.com/eimert](https://gitlab.com/Eimert){:target="_blank"}
-- [github.com/eimert](https://github.com/Eimert){:target="_blank"}
+1. [linkedin.com/in/eimertvink](http://linkedin.com/in/eimertvink){:target="_blank"}
+2. skype: eim_92
+3. [keybase chat](https://keybase.io/eimert){:target="_blank"}
