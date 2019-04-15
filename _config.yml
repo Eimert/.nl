@@ -7,16 +7,17 @@ plugins:
   - jekyll-include-cache
   - jemoji
 minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-google_analytics: UA-65648916-1
+
 analytics:
-  provider: "google-gtag"
+  provider: "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
+  tracking_id: UA-65648916-1
   anonymize_ip: false # default
-locale: "en-GB"
+
+locale: "en"
 # enable when the migration to github pages is done.
-# url: "https://eimertvink.nl"
-# wip: devise new logo
-#logo: "/assets/images/88x88.png"
+url: "https://eimertvink.nl"
+# wip: devise new logo #logo: "/assets/images/88x88.png"
 include: ["_pages"]
 
 # recommended front matter defaults
@@ -33,9 +34,22 @@ defaults:
       share: true
       related: true
 paginate: 5
-# seems to slow down jekyll serve:
+# set default author
 author: Eimert Vink
+
 compress_html:
   clippings: all
   ignore:
     envs: development
+
+comments:
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            : eimertvink  # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
