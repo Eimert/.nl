@@ -7,10 +7,10 @@ plugins:
   - jekyll-include-cache
   - jemoji
 minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+google_analytics: UA-65648916-1
 analytics:
   provider: "google-gtag"
   google:
-  tracking_id: UA-65648916-1
   anonymize_ip: false # default
 locale: "en-GB"
 # enable when the migration to github pages is done.
