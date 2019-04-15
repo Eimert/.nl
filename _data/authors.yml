@@ -1,13 +1,13 @@
+---
 Eimert Vink:
     name      : "Eimert Vink"
     bio       : "🇳🇱 Java Developer. Passionate about Linux and Java. Curious and eager to learn."
     avatar    : "/assets/images/Eimert_Vink.png"
     links:
       - label: "LinkedIn"
-#        icon: "fab fa-fw fa-linkedin-square"
         url: "https://linkedin.com/in/eimertvink"
       - label: "Gitlab"
-#        icon: "fab fa-fw fa-gitlab-square"
         url: "https://gitlab.com/Eimert"
       - label: "Github"
         url: "https://github.com/Eimert"
+# todo: add icon

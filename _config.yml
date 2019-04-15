@@ -12,9 +12,8 @@ analytics:
   tracking_id: "UA-65648916-1"
   anonymize_ip: false # default
 locale: "en-GB"
+# enable when the migration to github pages is done.
 # url: "https://eimertvink.nl"
-#head_scripts:
-#  - /assets/js/ga.html
 logo: "/assets/images/88x88.png"
 include: ["_pages"]
 
@@ -31,5 +30,10 @@ defaults:
       comments: true
       share: true
       related: true
-pagination: 5
+paginate: 5
+# seems to slow down jekyll serve:
 author: Eimert Vink
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
