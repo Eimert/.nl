@@ -14,7 +14,8 @@ analytics:
 locale: "en-GB"
 # enable when the migration to github pages is done.
 # url: "https://eimertvink.nl"
-logo: "/assets/images/88x88.png"
+# wip: devise new logo
+#logo: "/assets/images/88x88.png"
 include: ["_pages"]
 
 # recommended front matter defaults
