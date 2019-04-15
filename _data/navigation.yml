@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Showcase"
+    url: /showcase/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/

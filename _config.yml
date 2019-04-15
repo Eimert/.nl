@@ -1,7 +1,15 @@
-title: eimertvink.nl
-description: humble thoughts and tech tips
+title: "eimertvink.nl | humble thoughts and tech tips"
+description: "🇳🇱 Java Developer. Passionate about Linux and Java. Curious and eager to learn."
+name: "Eimert Vink"
 show_downloads: false
-google_analytics:
+google_analytics: UA-65648916-1
 remote_theme: "mmistakes/minimal-mistakes@4.16.0"
 plugins:
   - jekyll-include-cache
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+locale: "en-GB"
+# url: "https://eimertvink.nl"
+#head_scripts:
+#  - /assets/js/ga.html
+logo: "/assets/images/88x88.png"
+include: ["_pages"]
