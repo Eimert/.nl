@@ -22,4 +22,4 @@ Thank you wordpress.com for serving my blog from January 2014 onwards.
 Link migration seem only possible using wordpress plugins, that require a paid wordpress.com plan.
 
 ## HTTPS
-Github needs 24h hours to setup HTTPS for this domain. 
+Github needs 24h to setup HTTPS for this domain. 
