@@ -11,8 +11,7 @@ minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark"
 analytics:
   provider: "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-  tracking_id: UA-65648916-1
-  anonymize_ip: false # default
+    tracking_id: UA-65648916-1
 
 locale: "en"
 # enable when the migration to github pages is done.
