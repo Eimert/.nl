@@ -3,6 +3,8 @@ title: blog migrated from wordpress to github pages
 excerpt: I've decided to migrate my blog to github pages for performance reasons and it is ad-free.
 toc: true
 author: Eimert Vink
+tags:
+  - tech
 ---
 I've decided to put my [wordpress blog](https://eimert.tech.blog){:target="_blank"} in 'read-only' mode. Future posts 
 will be on this new [github pages](https://eimert.github.io/.nl) blog.
