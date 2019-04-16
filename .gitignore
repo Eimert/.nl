@@ -18,6 +18,11 @@ Gemfile.lock
 *.swp
 *~
 
+# Disallow (chunky) images in repo
+*.png
+*.jpg[e]?g
+*.svg
+
 # Folders
 /vendor
 bbin/
