@@ -13,3 +13,8 @@ bundle
 ```bash
 jekyll serve
 ```
+Pro tip:
+```bash
+lint-md ~/dev/.nl/_posts/*.md
+```
+
