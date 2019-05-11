@@ -1,6 +1,6 @@
 # .nl
 
-[Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)w
+[Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)
 - [documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 
@@ -24,6 +24,7 @@ Find out vulnerabilities by running Lighthouse (Google Chrome extension).
 ```bash
 bundle outdated
 sudo bundle update
+bummr update
 ```
 
 ## Links
