@@ -24,8 +24,8 @@ Find out vulnerabilities by running Lighthouse (Google Chrome extension).
 ```bash
 bundle outdated
 sudo bundle update
-bummr update
 ```
+Update the minimal mistakes theme in [_config.yml](_config.yml). The latest release can be found [here](https://mmistakes.github.io/minimal-mistakes/).
 
 ## Links
 https://thoughtbot.com/blog/keep-your-gems-up-to-date
