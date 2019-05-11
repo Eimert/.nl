@@ -7,7 +7,8 @@ tags:
   - tech
 ---
 This is a short post on all the options I've been through to get a (simple) sql console for Android development.
-And it saves time when you can pick the right tool straight away :).<br>**Update 11-05-2019**: database export is possible on AVD devices too.
+And it saves time when you can pick the right tool straight away :).<br>
+**Update 11-05-2019**: database export is possible on AVD devices too.
 Added a fix for when the exported database file is empty (call close() to let SQLite write its journal to disk).<br>
 
 In descending order of goodness:
@@ -126,10 +127,7 @@ adb exec-out run-as nl.eimertvink.smv cat databases/smv_db > smv_db_copy
 2. Happy querying:
 ```bash
 eimert@EIM SMV $ sqlite3 smv_db_copy
--- Loading resources from /home/eimert/.sqliterc
-
-SQLite version 3.11.0 2016-02-15 17:29:24
-Enter ".help" for usage hints.
+(... omitted ...)
 sqlite> .tables
 Question           ScoreDetail        android_metadata
 Rating             TestSession        room_master_table
