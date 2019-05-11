@@ -22,5 +22,9 @@ jekyll serve --incremental
 ## Maintenance
 Find out vulnerabilities by running Lighthouse (Google Chrome extension).
 ```bash
+bundle outdated
 sudo bundle update
 ```
+
+## Links
+https://thoughtbot.com/blog/keep-your-gems-up-to-date
