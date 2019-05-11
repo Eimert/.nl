@@ -20,6 +20,7 @@ jekyll serve --incremental
 ```
 
 ## Maintenance
+Find out vulnerabilities by running Lighthouse (Google Chrome extension).
 ```bash
 sudo bundle update
 ```
