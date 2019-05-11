@@ -9,12 +9,13 @@
 bundle
 ```
 
-## Local run
-```bash
-jekyll serve
-```
-Pro tip:
+## Local launch
 ```bash
 lint-md ~/dev/.nl/_posts/*.md
+```
+Launch:
+```bash
+jekyll serve
+jekyll serve --incremental
 ```
 
