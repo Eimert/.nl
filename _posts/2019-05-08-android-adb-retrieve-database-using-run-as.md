@@ -14,7 +14,7 @@ Added a fix for when the exported database file is empty (call close() to let SQ
 In descending order of goodness:
 ## 1) adb exec-out run-as nl.eimertvink.smv cat databases/smv_db > smv_db_copy
 This is the best and fastest way from [stackoverflow](https://stackoverflow.com/questions/18471780/android-adb-retrieve-database-using-run-as){:target="_blank"}.
-You'll need ~~your phone connected and~~ a physical phone <sup>(with debugging enabled)</sup> *or* an AVD device 
+You'll need ~~your phone connected and~~ a physical phone <sup>(with debugging enabled)</sup> *or* an AVD device
 <sup>([AVD: debugging is enabled by default](https://developer.android.com/studio/debug){:target="_blank"})</sup>.<br>
 
 A script that simplifies the copy action is [humpty-dumpty-android](https://github.com/Pixplicity/humpty-dumpty-android){:target="_blank"}. I'm not going to describe that tool here.<br>
@@ -25,10 +25,10 @@ adb exec-out run-as nl.eimertvink.smv cat databases/smv_db > smv_db_copy
 ```
 2. View tables:
 ```bash
-eimert@EIM SMV $ sqlite3 smv_db_copy 
+eimert@EIM SMV $ sqlite3 smv_db_copy
 (... omitted ...)
 sqlite> .tables
-sqlite> 
+sqlite>
 ```
 
 No tables found; empty database file. Read on how to resolve this.
@@ -40,29 +40,22 @@ Some Java code that handles the button click:
 ```java
 public class MainActivity extends AppCompatActivity {
         // ... omitted ...
-        
+
         // Called when the user selects a contextual menu item
         @Override
         public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.action_close_db:
-                    Toast.makeText(MainActivity.this, getString(R.string.action_close_db), Toast.LENGTH_SHORT).show();
                     Log.d(TAG, getString(R.string.action_close_db));
-                    AsyncTask task0 = new AsyncTask() {
-                        @Override
-                        protected Object doInBackground(Object[] params) {
-                            if (db != null) {
-                                Log.d(TAG, "Closing database instance " + db);
-                                AppDatabase.close(db);
-                            }
-                            else {
-                                db = AppDatabase.getInstance(MainActivity.this);
-                                Log.d(TAG, "Opened database instance " + db);
-                            }
-                            return null;
-                        }
-                    };
-                    task0.execute();
+                    if (db == null) {
+                        Log.e(TAG, "Unable to re-open database instance " + db);
+                        Toast.makeText(MainActivity.this, getString(R.string.action_opened_db), Toast.LENGTH_LONG).show();
+                    } else if (AppDatabase.isOpen(db)) {
+                        Log.d(TAG, "Closing database instance " + db);
+                        AppDatabase.close(db);
+                        db = null;
+                        Toast.makeText(MainActivity.this, getString(R.string.action_closed_db), Toast.LENGTH_SHORT).show();
+                    }
                     mode.finish(); // Action picked, so close the contextual menu
                     return true;
                 default:
@@ -70,12 +63,17 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         // ... omitted ...
-}                   
+}
 ```
-The close(db) call refers to this static method in the AppDatabase class:
+After invoking the button, the db connection cannot be re-opened.
+The isOpen(db) and close(db) calls refers to these static methods in the AppDatabase class:
 ```java
 public abstract class AppDatabase extends RoomDatabase {
     // ... omitted ...
+    public static boolean isOpen(AppDatabase db) {
+        return db.isOpen();
+    }
+
     public static void close(AppDatabase db) {
         db.close(); // calls close() on RoomDatabase instance.
     }
@@ -118,7 +116,7 @@ Access: (660/-rw-rw----)	Uid: (10088/  u0_a88)	Gid: (10088/  u0_a88)
 Access: 2019-05-11 12:37:50.711995122
 Modify: 2019-05-11 12:57:09.121990328
 Change: 2019-05-11 12:57:09.121990328
-``` 
+```
 Let's copy the filled database file to our local machine.
 1. Copy db to machine:
 ```bash
