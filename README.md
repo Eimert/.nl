@@ -19,3 +19,7 @@ jekyll serve
 jekyll serve --incremental
 ```
 
+## Maintenance
+```bash
+sudo bundle update
+```
