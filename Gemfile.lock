@@ -244,7 +244,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 198)
+  github-pages
   jekyll-include-cache
   jemoji
 

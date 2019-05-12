@@ -5,6 +5,8 @@ layout: single
 author_profile: true
 ---
 You may reach me using:
-1. [linkedin.com/in/eimertvink](http://linkedin.com/in/eimertvink){:target="_blank"}
-2. skype: eim_92
-3. [keybase chat](https://keybase.io/eimert){:target="_blank"}
+- [Linkedin.com/in/EimertVink](http://linkedin.com/in/eimertvink){:target="_blank"}
+- [Telegram](https://t.me/eim_92){:target="_blank"}
+
+You can pay me using:
+- [Bunq.me/Eimert](https://bunq.me/Eimert){:target="_blank"}
