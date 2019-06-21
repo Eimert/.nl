@@ -1,5 +1,5 @@
 ---
-title: java 11: running a single java source code file as a script (shebang support)
+title: running a single Java (11) source code file as a script (shebang support)
 excerpt: A new feature of Java 11 is the possibility to run a single Java source code file as a script.
 toc: true
 author: Eimert Vink

@@ -1,6 +1,6 @@
 # .nl
-
-[Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)
+Eimert's personal blog running on GitHub pages.
+- [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)
 - [documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)<br>
 - [weiyangtham.github.io](https://github.com/weiyangtham/weiyangtham.github.io)<br>
 
@@ -11,11 +11,13 @@
 bundle
 ```
 
-## Local launch
+## Lint etc
 ```bash
-lint-md ~/dev/.nl/_posts/*.md
+POSTS=~/dev/.nl/_posts/*.md
+lint-md $POSTS
+find $POSTS -name '*_*'
 ```
-Launch:
+## Local launch
 ```bash
 jekyll serve
 
