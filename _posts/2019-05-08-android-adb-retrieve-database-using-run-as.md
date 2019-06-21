@@ -5,6 +5,11 @@ toc: true
 author: Eimert Vink
 tags:
   - tech
+  - android
+  - sqlite
+  - export
+  - avd
+  - database console
 ---
 This is a short post on all the options I've been through to get a (simple) sql console for Android development.
 And it saves time when you can pick the right tool straight away :).<br>
