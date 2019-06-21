@@ -1,7 +1,9 @@
 # .nl
 
 [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)
-- [documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+- [documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)<br>
+- [weiyangtham.github.io](https://github.com/weiyangtham/weiyangtham.github.io)<br>
+
 
 
 ## Local setup
@@ -16,6 +18,8 @@ lint-md ~/dev/.nl/_posts/*.md
 Launch:
 ```bash
 jekyll serve
+
+or:
 jekyll serve --incremental
 ```
 
