@@ -67,9 +67,11 @@ Running Java 11 as script
 ```
 
 ## Conclusion
-Running 'Java as a script' gives developers the ability to easily run small utilities on a UNIX system. A single Java 
-source script could be invoked using a (shell script) serverless function.
+Running 'Java as a script' gives developers the ability to easily run small utilities on a UNIX system. This feature 
+opens up the possibility to run Java utilities on an UNIX system.
 
 ## References
-[https://github.com/sandermak/java-next-labs](https://github.com/sandermak/java-next-labs){:target="_blank"}
+- [https://github.com/sandermak/java-next-labs](https://github.com/sandermak/java-next-labs){:target="_blank"}
+- [https://dzone.com/articles/single-file-source-code-with-java-11](https://dzone.com/articles/single-file-source-code-with-java-11){:target="_blank"}
+- [https://www.baeldung.com/java-single-file-source-code](https://www.baeldung.com/java-single-file-source-code){:target="_blank"}
 
