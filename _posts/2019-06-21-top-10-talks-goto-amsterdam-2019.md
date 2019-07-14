@@ -9,7 +9,7 @@ tags:
   - conference
   - amsterdam
 ---
-My top ten favourite talks from the [GOTO software development conference in Amsterdam](https://gotoams.nl){:target="_blank"}, 17-20 June 2019.
+My top ten talks from the [GOTO software development conference in Amsterdam](https://gotoams.nl){:target="_blank"}, 17-20 June 2019.
 Most of the talks have been recorded and (will be) published on the [GotoConferences youtube channel](https://www.youtube.com/user/GotoConferences/videos){:target="_blank"}.
 
 <img src="https://pbs.twimg.com/media/D74qAKcXkAAriHl.png" title="center" alt="center" style="display: block; margin: auto;" />
