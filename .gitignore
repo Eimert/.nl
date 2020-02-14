@@ -32,4 +32,4 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
-.idea/
+node_modules/
