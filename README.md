@@ -6,17 +6,21 @@ Eimert's personal blog running on GitHub pages.
 
 
 
-## Local setup
+## Ruby gems local setup
 ```bash
+sudo apt-add-repository ppa:brightbox/ruby-ng
+sudo apt-get update
+sudo gem install mdl
 bundle
 ```
 
-## Lint etc
+## Lint
 ```bash
 POSTS=~/dev/.nl/_posts/*.md
-lint-md $POSTS
+mdl $POSTS
 find $POSTS -name '*_*'
 ```
+
 ## Local launch
 ```bash
 jekyll serve

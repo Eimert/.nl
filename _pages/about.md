@@ -4,29 +4,31 @@ permalink: /about/
 layout: single
 author_profile: true
 ---
-<img style="float: right;" alt="Eimert Vink" src="/assets/images/Eimert_Vink.png">
-## Generation Einstein
+### 🇬🇧 Generation Einstein
 Born in 1992, Drenthe (NL). Early on I became interested in computers and networking. 
 Lots of computers have been disassembled and reassembled with better parts. After the secondary school, I got my diploma
 ‘Network engineering’ at the Drenthe College (MBO4). I continued studying at the Hanzehogeschool in Groningen. I finished 
 the bachelor ‘Business IT & Management’ with honours. After briefly studying computer science at the TU Eindhoven, I 
-started working as Tomcat Engineer at ING. I’ve recently switched teams and started working as a Java Developer.
+started working as Tomcat Engineer at ING. I taught myself Java and now I'm working as Java developer for team ACE.
 
-### Intention
+#### Intention
 This blog reflects my interests, both technical and personal. I want to describe my solution to questions that companies 
-ask (both explicitly and implicitly).
+ask (both explicitly and implicitly). I hope this blog inspires and sparks your engineering spirit :fire:. Have fun reading :).
 
-This is my personal point of view, it does not necessarily reflect my employers opinion. I hope this blog inspires and 
-sparks your engineering spirit :fire:. Have fun reading :).
+#### Disclaimer
+This is my personal point of view, it does not necessarily reflect my employers opinion. 
 
 <hr>
-## 🇳🇱 Generatie Einstein
+
+### 🇳🇱 Generatie Einstein
 Geboren in 1992, Drenthe. Op jonge leeftijd werd ik geprikkeld door computers en hun communicatiemogelijkheden. Vele 
 computers zijn gedemonteerd en met betere onderdelen terug in elkaar gezet. Na de middelbare school heb ik mijn diploma 
 Netwerkbeheer gehaald op het Drenthe College. Vervolgens heb ik aan de Hanzehogeschool in Groningen de bachelor Business 
 IT & Management afgerond met honours. Na kort informatica gestudeerd te hebben aan de TU in Eindhoven ben ik begonnen bij 
-ING als Tomcat Engineer. Recent ben ik naar een ander team gegaan en gaan werken als Java ontwikkelaar. 
+ING als Tomcat Engineer. In maart 2019 ben ik naar team ACE gegaan en begonnen als Java ontwikkelaar. 
 
-### Intentie
-Deze blog reflecteert mijn interesses, hobby’s en bezigheden. Ik hoop dat deze blog inspireert en activeert. Veel 
-leesplezier :).
+#### Intentie
+Deze blog reflecteert mijn interesses, hobby’s en bezigheden. Ik hoop dat deze blog inspireert en het techniekhart sneller doet kloppen :fire:. Veel leesplezier :).
+
+#### Disclaimer
+Dit is mijn persoonlijke perspectief op zaken. Mijn standpunt(en) en mening(en) zijn niet per se representabel voor die van mijn werkgever.
