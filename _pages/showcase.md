@@ -7,6 +7,8 @@ author_profile: true
 This is my sanctuary where I share the awesome technical things I’ve made or work with. This is what I feel most **passionate** about and **love doing** :).
 
 ## Certifications
+- 2020: OCP Java SE 8 Programmer II
+[![OCP](https://eimerttech.files.wordpress.com/2020/04/oracle-ocp-java-se-8-programmer-ii-1.png){: width=300 style="float:right; padding:16px"}](https://eimerttech.files.wordpress.com/2020/04/oracle-ocp-java-se-8-programmer-ii-1.png)
 - 2019: OCA Java SE 8 Programmer
 [![OCA](https://eimerttech.files.wordpress.com/2019/02/oracle-oca-java-se-8-programmer.png){: width=300 style="float:right; padding:16px"}](https://eimerttech.files.wordpress.com/2019/02/oracle-oca-java-se-8-programmer.png)
 - 2018: RHCE
