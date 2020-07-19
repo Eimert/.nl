@@ -7,7 +7,10 @@ tags:
   - tech
   - linux
 ---
-I recently upgraded my laptop SSD from 512GB to 1TB. Getting the data over to the new SSD is a three-step process:
+I recently upgraded my laptop SSD from 512GB to 1TB.
+![Kingston ssd](https://tweakers.net/i/dVbxOtqB6T84aIQ2uxdDRSSIelo=/fit-in/x800/filters:strip_icc():strip_exif()/i/2002979434.jpeg?f=imagegallery)
+
+Getting the data over to the new SSD is a three-step process:
 1. I made an image using [clonezilla](clonezilla.org/) and an external hdd.
 2. Installed the new SSD and restored the clonezilla image.
 3. _Increased the LVM and LUKS partition size to make use of all the space on the SSD._
