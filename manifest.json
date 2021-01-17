@@ -15,27 +15,27 @@
   "url": "https://eimertvink.nl",
   "icons": [
     {
-      "src": "assets/icons/favicon.ico",
+      "src": "/assets/icons/favicon.ico",
       "sizes": "32x32",
       "type": "image/x-icon"
     },
     {
-      "src": "assets/icons/android-chrome-192x192.png",
+      "src": "/assets/icons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/android-chrome-256x256.png",
+      "src": "/assets/icons/android-chrome-256x256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "assets/icons/android-chrome-512x512.png",
+      "src": "/assets/icons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "assets/icons//maskable_icon_x1.png",
+      "src": "/assets/icons/maskable_icon_x1.png",
       "sizes": "560x560",
       "type": "image/png",
       "purpose": "any maskable"
