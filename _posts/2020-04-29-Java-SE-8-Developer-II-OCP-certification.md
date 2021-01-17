@@ -1,7 +1,8 @@
 ---
 title: Java SE 8 Developer II OCP certification
 excerpt: Today I passed the 1z0-809 exam and became OCP certified.
-toc: true
+toc: false
+comments: true
 author: Eimert Vink
 tags:
   - tech

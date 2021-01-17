@@ -1,4 +1,4 @@
-title: "eimertvink.nl | humble thoughts and heaven for techies"
+title: "eimertvink.nl | humble thoughts and tech tips"
 description: "🇳🇱 Java Developer. Passionate about Linux and Java. Curious and eager to learn."
 name: "Eimert Vink"
 show_downloads: false
@@ -42,16 +42,9 @@ compress_html:
     envs: development
 
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : eimertvink  # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    shortname            : "eimertvink"
 
 # Archives
 #  Type

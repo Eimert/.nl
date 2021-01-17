@@ -2,6 +2,7 @@
 title: Enlarge an encrypted LUKS partition on LVM
 excerpt: Enlarge an encrypted LUKS partition based on LVM.
 toc: true
+comments: true
 author: Eimert Vink
 tags:
   - tech
