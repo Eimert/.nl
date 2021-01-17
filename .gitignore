@@ -18,10 +18,8 @@ Gemfile.lock
 *.swp
 *~
 
-# Disallow (chunky) images in repo
-*.png
-*.jpg[e]?g
-*.svg
+# Disallow (chunky) images in repo, but do allow icons
+/assets/images/
 
 # Folders
 /vendor
