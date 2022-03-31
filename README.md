@@ -1,22 +1,24 @@
-# .nl
-Eimert's personal blog running on GitHub pages.
-- [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)
-- [documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)<br>
-- [weiyangtham.github.io](https://github.com/weiyangtham/weiyangtham.github.io)<br>
-
-
+## eimertvink.nl
+Eimert's personal blog running on GitHub pages using Minimal Mistakes Jekyll theme.
 
 ## Ruby gems local setup
+Linux distro's with apt:
 ```bash
 sudo apt-add-repository ppa:brightbox/ruby-ng
 sudo apt-get update
-sudo gem install mdl
-bundle
+gem install bundler
+bundle install
 ```
 
+## Mac Ruby
+- [brew install chruby ruby-install](https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma)
+
 ## Lint
+`mdl` Is a style checker/lint tool for markdown files.
 ```bash
-POSTS=~/dev/.nl/_posts/*.md
+gem install mdl
+cd .nl/
+POSTS=$PWD/_posts/*.md
 mdl $POSTS
 find $POSTS -name '*_*'
 ```
@@ -24,18 +26,22 @@ find $POSTS -name '*_*'
 ## Local launch
 ```bash
 jekyll serve
-
-or:
+# or
 jekyll serve --incremental
 ```
 
 ## Maintenance
+Update the minimal mistakes theme in [_config.yml](_config.yml). The latest release can be found [here](https://mmistakes.github.io/minimal-mistakes/).
 Find out vulnerabilities by running Lighthouse (Google Chrome extension).
 ```bash
+gem update
+bundle update --bundler
 bundle outdated
-sudo bundle update
+bundle update
 ```
-Update the minimal mistakes theme in [_config.yml](_config.yml). The latest release can be found [here](https://mmistakes.github.io/minimal-mistakes/).
 
-## Links
-https://thoughtbot.com/blog/keep-your-gems-up-to-date
+## Links // references
+- [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)
+- [Minimal Mistakes documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+- [Minimal Mistakes reference repo](https://github.com/weiyangtham/weiyangtham.github.io)
+- [Keep your gems up to date](https://thoughtbot.com/blog/keep-your-gems-up-to-date)

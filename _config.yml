@@ -2,7 +2,7 @@ title: "eimertvink.nl | humble thoughts and tech tips"
 description: "🇳🇱 Java Developer. Passionate about Linux and Java. Curious and eager to learn."
 name: "Eimert Vink"
 show_downloads: false
-remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
   - jemoji
