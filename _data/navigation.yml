@@ -1,8 +1,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Showcase"
-    url: /showcase/
+  - title: "Work"
+    url: /portfolio/
   - title: "About"
     url: /about/
   - title: "Contact"

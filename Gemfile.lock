@@ -279,7 +279,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 225)
-  jekyll-include-cache (>= 0.2.0)
+  jekyll-feed
+  jekyll-include-cache (>= 0.2.1)
   jemoji (>= 0.12.0)
   webrick (~> 1.7)
 

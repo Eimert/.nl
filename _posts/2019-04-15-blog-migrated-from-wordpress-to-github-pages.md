@@ -2,6 +2,7 @@
 title: blog migrated from wordpress to github pages
 excerpt: I've decided to migrate my blog to github pages for performance reasons and it is ad-free.
 toc: true
+classes: wide
 author: Eimert Vink
 tags:
   - tech
