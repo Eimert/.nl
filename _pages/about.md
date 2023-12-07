@@ -5,7 +5,6 @@ layout: single
 classes: wide
 toc: true
 toc_label: "Language"
-author_profile: false
 ---
 # :uk: English
 I was born in Emmen, Drenthe (Netherlands). Early on I became interested in computers and networking.
