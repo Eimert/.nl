@@ -1,8 +1,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Work"
-    url: /portfolio/
+  - title: "Certifications"
+    url: /portfolio/certifications/
   - title: "About"
     url: /about/
   - title: "Contact"
