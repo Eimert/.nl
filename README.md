@@ -31,7 +31,7 @@ jekyll serve --incremental
 ```
 
 ## Maintenance
-Update the minimal mistakes theme in [_config.yml](_config.yml). The latest release can be found [here](https://mmistakes.github.io/minimal-mistakes/).
+Update the minimal mistakes theme in [_config.yml](_config.yml) element `remote_theme`. The latest release can be found [here](https://mmistakes.github.io/minimal-mistakes/).
 Find out vulnerabilities by running Lighthouse (Google Chrome extension).
 ```bash
 gem update
